@@ -1,0 +1,50 @@
+# Node.js dependencies
+/node_modules
+/package-lock.json
+/yarn.lock
+
+# Logs
+/logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime data
+/pids
+*.pid
+*.pid.lock
+
+# Compiled files
+*.out
+*.exe
+*.o
+*.a
+
+# Build output
+/dist
+/build
+/target
+
+# IDEs and editors
+.idea/
+*.swp
+*.swo
+*.swn
+*.vscode/
+*.code-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.backup
