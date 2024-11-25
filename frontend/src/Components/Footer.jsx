@@ -2,8 +2,8 @@ import React from 'react'
 
 export default function Footer() {
   return (
-    <footer class="bg-gray-900 text-gray-400 py-8">
-  <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+    <footer class="bg-gray-900 text-gray-400 py-3">
+  <div class="max-w-6xl mx-auto px-3 sm:px-6 lg:px-8">
     <div class="grid grid-cols-1 md:grid-cols-5 gap-8">
       
       <div>
@@ -19,14 +19,7 @@ export default function Footer() {
       </div>
 
      
-      <div>
-        <h3 class="text-white text-lg font-bold mb-4">Social</h3>
-        <ul class="space-y-2">
-          <li><a href="#" class="hover:text-white">Facebook</a></li>
-          <li><a href="#" class="hover:text-white">Twitter</a></li>
-          <li><a href="#" class="hover:text-white">YouTube</a></li>
-        </ul>
-      </div>
+      
 
       <div>
         <h3 class="text-white text-lg font-bold mb-4">Service</h3>
@@ -47,6 +40,16 @@ export default function Footer() {
           <li><a href="#" class="hover:text-white">Co-branding</a></li>
           <li><a href="#" class="hover:text-white">Honor</a></li>
           <li><a href="#" class="hover:text-white">Giveaway</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h3 class="text-white text-lg font-bold mb-4">Contact</h3>
+        <ul>
+          <li><Link to></Link></li>
+          <li><Link to></Link></li>
+          <li><Link to></Link></li>
+          <li><Link to></Link></li>
         </ul>
       </div>
 
