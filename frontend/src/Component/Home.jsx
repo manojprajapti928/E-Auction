@@ -3,6 +3,7 @@ import img from "../Image/car.webp";
 import { useNavigate } from "react-router";
 import Details from './Details'
 import Navbar from "../Components/Navbar";
+import Footer from "../Components/Footer";
 
 export default function Home() {
   const Navigate = useNavigate();
@@ -166,6 +167,7 @@ export default function Home() {
           </div>
         </div>
       </div>
+      <Footer/>
     </>
   );
 }
